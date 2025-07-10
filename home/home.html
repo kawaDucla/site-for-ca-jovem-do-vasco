@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylehome.css">
+    <title>Home Força Jovem Vasco</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+<body>
+    <header class="cabecalho"> <!--Cabeçalho-->
+    <div id="cabecalho">
+        
+        
+        <div class="iconforcajovem"><!--icon fjv-->
+            <img src="./imagens/download.png" style="width: 101px; height: 101px;">  
+        </div> 
+        <div class="iconpessoa"><!--icon pessoa-->
+        <a href="cadastrar.html">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC9UlEQVR4nO2azWsTQRTAf1tjKeLHRawV/QMEFbT2JvQgaqioNzF+oHioeLQN1YPeFARtTfHUu58HT3r3KFoJBT2o6KnVKqKHpopfNTLwAsO4iZtss8ms7wdDlsnMmzeZN++9mQ0oiqIoiqIoiqIoiRAAvcAR4IwU87xNvksta4EC8BYoVynmu2tANykiAEaA+RoTd0sJyKfBIrqA2yETnJX6UWBMnmdD2t0SGV4ShEz+KbAb6Ahpb+r2AMWQH8FLSxhxJmJWekmEfhnxFXbfYTxjDTBnTcCYer2MOz7BOFFvKDhmH2Xlwyyh6FiQFwROqDN7vlGylpwZX3zBdkvpd1UcXlRM3/eWPJMstT2HLYVNFIjLXUveITwgbyl8ZRHkXfUtGgxbChvl4zJqyRvCA3L/+xbodVLeuE7wgyVvKx6GwWwMWQOWnGlfwiBypK0oXpSkpl5Mn6mY2WTbpMKFBmRcd1Jh7+4I8s6BZjyiJWScyZfl1sg7AjnKlp3tkK1xHB5wzN6UGz7tfZeukB+hLOntHTngjEmos719pdz0+UKkQiDJUamOK7E5MXtvVz6MblntmRoTnxZvb5xoagkkoclZ1+I5qUvViiuK8hedQB9wEBgEzkoZlLo+aZMqNgOXgEnge4QQaNo8AS4Cm/CUpcBJ4Hkdsb9aeQacaPBA1RKOAm+qTOY38AK4B0wAl6VMSN1LaRPW97XcN7Yt64AHIYqXJJ/fB6yKIMe02S9pcFj2eB/ooc3YBXx2FP0oDm55DLmm7zmRZcv+BOykTTgO/LCUW5Cjb5yJu6wQmQuOszxGiznt7FmTy/c3cbx+GcP2KadoEXuBn5YyxuNvSGDcHued4S/gAAmzxfnHx2REB7dYrAQeW+PPS76RCBl541sZ3Bxv15M8q4FXlh5Tkn80nfPWoN/EGlrFRuCrpY/Rral0AF+sAS/QeoacrRDnRUwkKnvvUVIm9w/Mny8eWr6o6SwDdshnu9ApIdLkC4qiKIqiKAoR+ANHc0fJ9QoTfAAAAABJRU5ErkJggg==" alt="person-male--v1">
+        </a>
+        </div>
+        <div><!--escrito para se cadastrar-->
+            <a class = "cadastro1" href="cadastrar.html">Login/ </a>
+            <a class = "cadastro2" href="cadastrar.html">Cadastra-se</a>
+        </div>
+        <div class="iconcarrinho"> <!--iconcarrinho-->
+        <a href="carrinho.html">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEa0lEQVR4nO2bXYhVVRTHf5PR6EwNfRjYB/lgpTaUiTUSPYRYD5lZFCQiUVFKL2U6TmZSBBKZoA9SlCMWIZZU9FBBUFk+iEEWmKT04VhUSmD5GWVN08SCdePf5lw8+94znnM884PNfbhnr7P2Omfvtfd/7wP/ZxywCLicirIbGAQOAVdRQb7xAFjpA86lYkwCDksQ3qGC3A78I0GYTQVZIwHYC5xBxegAfpYg3E8FeVQCsJ0K0gH8LkHopIK8LgFYTAW5RwKwE1hS8vIwcElMAMZLAE6VYlktNS3AsQI4nWX5LbYbfC6V3wBWlLB8LG34MDYAr0nl+ZSTDdKGJ2MrPyWVV1FOvpc2TIutPEcqv0v5uFj8/wtoizUwRQx8S/mYK/5va8TAWbI6/LuEC6MXJQDPNmpknxiZQLnYJb7PbNTIR2LkNsqDKVoD7vdAMwrXCxIAWyWWSdyp+f1FM4YWiqH1lIdV4vdzzRiaIYa2Uh4+zUraGyeGDlAO2j3v1/y+sBljI4DjYuw8is+N4u+erNPJdRSfleLvS1kYfEsM3kuxscnaD+LvnVkYXSEGn6HYPCS+HvLxoGnuE6P2NhSVK130qPlqq9lMuF6MfkkxuQbYHyzezszK+GgxfNwzQ1E4B1gO/BFIX9dmfaNf5AY2N8gDe6KTgbuAJ1yj0IYPuo5501DcfJvcxGaHQ0UrcIXP5XuAXtf1dFVar+zwukPCy3KjR5q0dTpwKXAzsMDn6u8D38kKLqbs8D3MIe2aS+WGtkJMI6vbRsR04EFfnNiZg6+DaWpMGfAgWbCeB+YBEzlJ3CGOmEYQYk/0aeBNX37q3mJssdd9i7/+Pd4dOr175EanOPhTwv9fRTbSBtVPgFeAZT6wTc4ydWXNSNcFB10nNL1Q2ZnQyKO+ubLJU9XdwNQynz/qk8aZYqyM9U3IB4AbgDGcgrwnAbDd48qxXALwNhXk6qCPL/B0Vyk2BUHY7jk+j0MPPXkc7T0b+KyJHJ91yUTyiqXdzxP+WdUA1DjfJeelOR1+sBXhZf95M8www+RJu+8eL/L9xFmNnMhIYKKfT1riv4Xbom/xfKzfGqgs3d3gZGlCsDWvZbOfY8yd04BXU6SqjZFBmFonoGFwu8iZnoScvNbLnuA/6xppD2qrvN3v647Vrij1B8JJuCw/qX3+sDizLlBsWv08gT6xNGPCMqnzq+v9ij31g3KNzUFyYVawCZEkV7UGGsLMyNOp9T7WmBesRXJhcUqRdG1kN9DzyfVElTGB6pQL3eKENbIevXKdpceYAFxQ55qL5Joj5MStweDXWkdH3CvX3RLZBUxeS2J+EbpAmw9sNUfWB0EY6YcTav/bwDUqhd3Hg0GwKyFF6iD4GDnSHaS6Pu8OvcGTj9lN6gi2wfp9D3C1/9aUaSs/5pkG8cnNxhQToQ2RE6Gu4O2qNxHKfAe4EVp8dE9y+KA/+UamwuP9A4ekxn9QxK/c23xgtJHeiuX8NH3+RFggLO/bYsh+M2v4v7Vk4mREbgUuAAAAAElFTkSuQmCC" alt="shopping-trolley--v2" style="width: 40px; height: 40px;">   
+        </a>
+        </div>   
+        <div class="numero0">   
+            0
+        </div>
+    </div>   
+    </header> 
+    <main>
+        <section>
+            <div class="overlay">
+                <div class="texto-forca">
+                    <p class="forca">FORÇA JOVEM</p>
+                </div>
+                <div class="texto-bordao">
+                    <img class="cruzdemalta1" src="./imagens/CruzDeMalta.png" style="width: 50px; height: 50px;" >
+                    <p class="vascoporamor">VASCO POR AMOR FORÇA JOVEM POR IDEAL</p>
+                    <img class="cruzdemalta2" src="./imagens/CruzDeMalta.png" style="width: 50px; height: 50px;" >
+                </div>
+                <div class="botoes">
+                    <a href="categorias.html " class="btn">Loja</a>
+                    <a href="cadastrar.html" class="btn">Seja sócio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</html>

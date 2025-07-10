@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.637);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: black;
+}
+
+.iconbotaovoltar {
+  position: absolute;
+  left: 3%;
+  top: 20%;
+}
+.iconforcajovem {
+  position: absolute;
+  left: 46.5%;
+  top: 10%;
+}
+.iconpessoa {
+  position: absolute;
+  left: 80%;
+  top: 23%;
+}
+.iconcarrinho {
+  position: absolute;
+  left: 95%;
+  top: 50px;
+}
+.cadastro1 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35%;
+  left: 86%;
+}
+.cadastro2 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+}
+.numero0 {
+  color: red;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35px;
+  left: 97%;
+}
+#cabecalho {
+  width: auto;
+  height: 120px;
+  background-color: white;
+}
+
+section{
+  background: url('./imagens/542006146-torcida-do-vasco-forca-jovem-2-610x400.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retangulo {
+  width: 140px;
+  height: 36px;
+  background-color: #681717;  /* cor do Figma */
+  border-radius: 50px;         /* cantos arredondados */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.retangulo2{
+  width: 140px;
+  height: 36px;
+  background-color: #681717;  /* cor do Figma */
+  border-radius: 50px;         /* cantos arredondados */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.texto-forca{
+  font-family: 'New Rocker', sans-serif;
+  font-size: 150px;
+}
+.texto-bordao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  font-family: "Metal Mania", system-ui;
+  font-size: 36px;
+}
+.botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 150px;  
+}
+
+.btn{
+  background-color: #681717;
+  color: #fff;
+  transition: all 1s;
+}
+
+.btn:hover{
+  background-color: #3a0d0d;
+}

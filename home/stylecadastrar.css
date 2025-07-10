@@ -1,0 +1,195 @@
+
+
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+  body {
+  background: url('./imagens/torcidad.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+  color: white;
+  }
+
+
+  .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  }
+
+
+  header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: black;
+  }
+
+
+
+
+  .iconbotaovoltar {
+  position: absolute;
+  left: 3%;
+  top: 20%;
+  }
+  .iconforcajovem {
+  position: absolute;
+  left: 46%;
+  top: 10%;
+  }
+  .iconpessoa {
+  position: absolute;
+  left: 80%;
+  top: 23%;
+  }
+  .iconcarrinho {
+  position: absolute;
+  left: 95%;
+  top: 50px;
+  }
+  .cadastro1 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35%;
+  left: 86%;
+  }
+  .cadastro2 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  }
+  .numero0 {
+  color: red;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35px;
+  left: 97%;
+  }
+  #cabecalho {
+  width: auto;
+  height: 100px;
+  background-color: white;
+  }
+  .retangulo{
+  width: 370px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.514);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 80%;
+  flex-direction: column;
+  border-radius: 10%;
+
+  }
+
+ 
+
+  .email-form {
+
+  width: 280px; 
+  }
+
+  .email-input,
+  .input-senha {
+  width: 100%;
+  color: white;
+  font-family: 'Metal mania', cursive;
+  font-size: 15px;
+  padding: 3px 0;
+  background: transparent;
+  outline: none;
+  }
+
+  .email-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  }
+
+  .input-single {
+  width: 280px;
+  padding-top: 5px;
+  margin: 0;
+
+  }
+
+  .input-single input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding: 8px 0 5px 0;
+  outline: none;
+  font-family: 'Metal mania', cursive;
+ }
+
+.input-single label {
+  color: rgb(0, 0, 0);
+  font-family: 'Metal mania', cursive;
+  font-size: 25px;
+  pointer-events: none;
+  transition: 0.3s ease all;
+  user-select: none;
+  }
+
+  .input-single input:focus + label,
+  .input-single input:not(:placeholder-shown) + label {
+  font-size: 12px;
+  color: white;
+  }
+
+  .iconpessoa2{
+  opacity: 500%;
+
+  }
+  .botao{
+    font-family: "Metal Mania", system-ui;
+
+  }
+  section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+#senha{
+  background: transparent;
+}
+.cadastrar{
+  background-color: #000000c7;
+  color: #fff;
+  transition: all 1s;
+  margin-top: 2vh;
+  
+}
+.temcadastro{
+ 
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 80%;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 9.5vh;
+  }
