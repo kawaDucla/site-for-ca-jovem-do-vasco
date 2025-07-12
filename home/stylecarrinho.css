@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(245, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: black;
+}
+
+.iconbotaovoltar {
+  position: absolute;
+  left: 3%;
+  top: 20%;
+}
+.iconforcajovem {
+  position: absolute;
+  left: 46.5%;
+  top: 10%;
+}
+.iconpessoa {
+  position: absolute;
+  left: 80%;
+  top: 23%;
+}
+.iconcarrinho {
+  position: absolute;
+  left: 95%;
+  top: 50px;
+}
+.cadastro1 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35%;
+  left: 86%;
+}
+.cadastro2 {
+  color: black;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+}
+.numero0 {
+  color: red;
+  font-family: 'Podkova', serif;
+  position: absolute;
+  top: 35px;
+  left: 97%;
+}
+#cabecalho {
+  width: auto;
+  height: 120px;
+  background-color: white;
+}
+
+section{
+  background: url('./imagens/torcidad.webp') no-repeat;
+  background-size: cover;
+  height: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-forca{
+  font-family: 'New Rocker', sans-serif;
+  font-size: 100px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 170px; 
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.retangulo-fixo {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  position: fixed;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   z-index: 20;
+}
+.retanguloBranco{
+  background-color: #fff;
+  height: 60px;
+  width: 250px;
+  opacity: 50%;
+  border-radius: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-right: 75vw;
+  
+}
+.texto{
+  font-family: 'Metal Mania', cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  justify-content: center;
+}
+
+.retanguloBranco a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.retanguloBranco a:hover {
+  color: red;
+  transform: scale(1.1);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+.caminhao{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: -1vw;
+    
+}
+.caminhao2{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-right: -2  vh;
+    
+}
+.texto2{
+  font-family: 'Metal Mania', cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5vw;
+  margin-right: 1vh;
+  justify-content: center;
+   white-space: nowrap;
+  
+}
+
+
+
+
+
+
