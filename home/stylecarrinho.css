@@ -126,7 +126,7 @@ html, body {
   display: flex;
   justify-content:center;
   align-items: center;
-  margin-right: 75vw;
+  margin-right: 70vw;
   
 }
 .texto{
@@ -144,7 +144,6 @@ html, body {
   transition: all 0.3s ease-in-out;
   font-weight: bold;
 }
-
 .retanguloBranco a:hover {
   color: red;
   transform: scale(1.1);
