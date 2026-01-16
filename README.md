@@ -1,10 +1,3 @@
-Perfeito 👍
-Segue um **README pronto para GitHub**, simples, limpo e profissional, ideal para um **site frontend da Força Jovem do Vasco**, feito **apenas com HTML e CSS**.
-
-👉 É só copiar e colar no `README.md`.
-
----
-
 # Site da Força Jovem do Vasco
 
 Projeto de site institucional da **Força Jovem do Vasco**, desenvolvido utilizando apenas **HTML e CSS**.
