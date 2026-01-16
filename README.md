@@ -31,21 +31,6 @@ Este projeto tem caráter educacional e foi desenvolvido com foco em **frontend 
 
 ---
 
-## Estrutura do Projeto
-
-```
-forca-jovem-vasco/
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── img/
-│   └── imagens-do-site
-```
-
----
-
 ## Como Executar o Projeto
 
 1. Faça o download ou clone o repositório:
